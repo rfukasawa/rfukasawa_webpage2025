@@ -34,9 +34,9 @@ profiles:
   - icon: brands/x
     url: https://twitter.com/rfukasawa
   - icon: brands/linkedin
-    url: [https://www.linkedin.com/]https://www.linkedin.com/in/ricardo-fukasawa-54416917/
+    url: https://www.linkedin.com/in/ricardo-fukasawa-54416917/
   - icon: academicons/google-scholar
-    url: [https://scholar.google.ca/]https://scholar.google.com/citations?user=Z0NqKVYAAAAJ&hl=en
+    url: https://scholar.google.com/citations?user=Z0NqKVYAAAAJ&hl=en
   
 
 interests:
