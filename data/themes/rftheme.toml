@@ -1,18 +1,17 @@
 # Theme metadata
 name = "rftheme"
 
-# Is theme light or dark?
-light = true
+[light]
 
-# Primary
-primary = "#2962ff"
+  # Primary
+  primary = "#2962ff"
 
-# Menu
-menu_primary = "#000000"
-menu_text = "#FFFFAA"
-menu_text_active = "#FFD54F"
-menu_title = "#E4B429"
+  # Menu
+  menu_primary = "#000000"
+  menu_text = "#FFFFAA"
+  menu_text_active = "#FFD54F"
+  menu_title = "#E4B429"
 
-# Home sections
-home_section_odd = "rgb(255, 255, 255)"
-home_section_even = "rgb(247, 247, 247)"
+  # Home sections
+  home_section_odd = "rgb(255, 255, 255)"
+  home_section_even = "rgb(247, 247, 247)"
