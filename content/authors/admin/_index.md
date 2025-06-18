@@ -7,9 +7,6 @@ title: Ricardo Fukasawa
 first_name: Ricardo
 last_name: Fukasawa
 
-# Status emoji
-status:
-  icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
