@@ -7,8 +7,7 @@
 appearance:
   mode: light
   color: teal
-
-theme: rftheme
+  theme: rftheme
 
 # SEO
 marketing:
