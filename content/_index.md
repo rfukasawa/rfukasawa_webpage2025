@@ -41,12 +41,6 @@ sections:
         padding: [0, 0, 0, 0]
 
 
-  - block: markdown
-    content:
-      title: Contact
-    design:
-      view: contact
-
 
     
   - block: cta-card
