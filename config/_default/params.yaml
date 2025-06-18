@@ -29,18 +29,12 @@ marketing:
 
 # Site header
 header:
-  design:
-    background:
-      color: '#4bb4e3'
   navbar:
     enable: true
     blox: "navbar"
     fixed_to_top: true
     show_search: true
     show_theme_chooser: false
-    design:
-      background:
-        color: '#4bb4e3'
     logo:
       text: "Ricardo Fukasawa"
 
