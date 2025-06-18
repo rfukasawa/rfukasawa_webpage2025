@@ -41,9 +41,14 @@ sections:
         padding: [0, 0, 0, 0]
 
 
-  - block: contact
+  - block: markdown
     content:
-      title: Contact  
+      title: Contact
+    design:
+      view: contact
+
+
+    
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
