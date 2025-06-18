@@ -29,6 +29,8 @@ marketing:
 
 # Site header
 header:
+  background:
+    color: 'navy'
   navbar:
     enable: true
     blox: "navbar"
