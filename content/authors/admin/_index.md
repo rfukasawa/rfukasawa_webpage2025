@@ -33,14 +33,14 @@ profiles:
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/rfukasawa
-  #- icon: brands/github
-  #  url: https://github.com/gcushen
+#- icon: brands/github
+#  url: https://github.com/gcushen
   - icon: brands/linkedin
     url: [https://www.linkedin.com/]https://www.linkedin.com/in/ricardo-fukasawa-54416917/
   - icon: academicons/google-scholar
     url: [https://scholar.google.ca/]https://scholar.google.com/citations?user=Z0NqKVYAAAAJ&hl=en
-  #- icon: academicons/orcid
-  #  url: https://orcid.org/
+#- icon: academicons/orcid
+#  url: https://orcid.org/
   
 
 interests:
