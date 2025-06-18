@@ -32,10 +32,12 @@ marketing:
 header:
   navbar:
     enable: true
-    blox: "mynavbar"
+    blox: "navbar"
     fixed_to_top: true
     show_search: true
     show_theme_chooser: false
+    background:
+      color: navy
     logo:
       text: "Ricardo Fukasawa"
 
