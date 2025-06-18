@@ -37,7 +37,7 @@ header:
     show_search: true
     show_theme_chooser: false
     background:
-      color: navy
+      color: 'navy'
     logo:
       text: "Ricardo Fukasawa"
 
