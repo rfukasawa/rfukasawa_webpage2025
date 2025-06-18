@@ -6,9 +6,8 @@
 # Appearance
 appearance:
   mode: light
-  color: rfcolor
+  color: teal
   
-theme_day: rftheme
 
 # SEO
 marketing:
