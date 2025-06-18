@@ -1,0 +1,27 @@
+---
+title: A Fast Combinatorial Algorithm for the Bilevel Knapsack Problem with Interdiction
+  Constraints
+authors:
+- Noah \studWeninger
+- Ricardo Fukasawa
+date: '2023-01-01'
+publishDate: '2025-06-18T17:50:40.310530Z'
+publication_types:
+- paper-conference
+publication: '*Integer Programming and Combinatorial Optimization*'
+abstract: We consider the bilevel knapsack problem with interdiction constraints,
+  a fundamental bilevel integer programming problem which generalizes the 0-1 knapsack
+  problem. In this problem, there are two knapsacks and n items. The objective is
+  to select some items to pack into the first knapsack such that the maximum profit
+  attainable from packing some of the remaining items into the second knapsack is
+  minimized. We present a combinatorial branch-and-bound algorithm which outperforms
+  the current state-of-the-art solution method in computational experiments by 4.5
+  times on average for all instances reported in the literature. On many of the harder
+  instances, our algorithm is hundreds of times faster, and we solved 53 of the 72
+  previously unsolved instances. Our result relies fundamentally on a new dynamic
+  programming algorithm which computes very strong lower bounds. This dynamic program
+  solves a relaxation of the problem from bilevel to 2n-level where the items are
+  processed in an online fashion. The relaxation is easier to solve but approximates
+  the original problem surprisingly well in practice. We believe that this same technique
+  may be useful for other interdiction problems.
+---
