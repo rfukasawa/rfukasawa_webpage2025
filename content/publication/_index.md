@@ -3,7 +3,7 @@ title: Publications
 cms_exclude: true
 
 # View.
-view: citation
+view: li_citation
 
 date: "2025-06-19"
 
