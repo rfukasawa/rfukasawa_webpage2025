@@ -4,7 +4,7 @@ title: "Student supervision"
 
 
 
-view: 1
+view: card
 
 ---
 
