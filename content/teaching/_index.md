@@ -4,7 +4,7 @@ title: "Courses taught"
 
 
 
-view: 1
+view: card
 
 ---
 
