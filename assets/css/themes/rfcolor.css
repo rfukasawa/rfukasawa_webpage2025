@@ -1,14 +1,14 @@
 /* Hugo Blox color theme: Personalized */
 :root {
   --color-primary-50: 0 0 0;
-  --color-primary-100: 204 251 241;
-  --color-primary-200: 153 246 228;
-  --color-primary-300: 94 234 212;
-  --color-primary-400: 45 212 191;
-  --color-primary-500: 20 184 166;
-  --color-primary-600: "#FFFFAA";
-  --color-primary-700: "#FFFFAA";
-  --color-primary-800: "#FFFFAA";
-  --color-primary-900: "#FFFFAA";
-  --color-primary-950: "#FFFFAA";
+  --color-primary-100: 0 0 0;
+  --color-primary-200: 0 0 0;
+  --color-primary-300: 0 0 0;
+  --color-primary-400: 0 0 0;
+  --color-primary-500: 0 0 0;
+  --color-primary-600: 0 0 0;
+  --color-primary-700: 0 0 0;
+  --color-primary-800: 0 0 0;
+  --color-primary-900: 0 0 0;
+  --color-primary-950: 0 0 0;
 }
