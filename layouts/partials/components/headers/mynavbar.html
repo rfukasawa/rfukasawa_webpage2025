@@ -1,8 +1,8 @@
 <header id="site-header" class="header">
-  <nav class="navbar px-3 flex justify-left  bg-dark navbar-dark">
+  <nav class="navbar px-3 flex justify-left text-oklch(255 255 170) hover:text--oklch(255 213 79) bg-white">
     <div class="order-0 h-100">
       <!-- Brand -->
-      <a class="navbar-brand" href="{{ site.Home.RelPermalink }}" title="{{ site.Title }}"  >
+      <a class="navbar-brand bg-white" href="{{ site.Home.RelPermalink }}" title="{{ site.Title }}">
         {{- $logo_filename := site.Params.header.navbar.logo.filename -}}
         {{ with $logo_filename }}
           {{- $logo:= resources.Get (path.Join "media" $logo_filename) -}}
@@ -32,7 +32,7 @@
     <input id="nav-toggle" type="checkbox" class="hidden" />
     <label
       for="nav-toggle"
-      class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1">
+      class="order-3 cursor-pointer flex items-center lg:hidden text-oklch(255 255 170) hover:text--oklch(255 213 79)  dark:text-white lg:order-1">
       <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
         <title>Open Menu</title>
         <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
@@ -50,7 +50,7 @@
     {{ $align_menu := site.Params.header.navbar.align | default "center" }}
     <ul
       id="nav-menu"
-      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-left
+      class="navbar-nav order-3 hidden text-oklch(255 255 170) hover:text--oklch(255 213 79) lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-left
       {{ if in (slice "l" "left") $align_menu }}mr-auto ml-6{{ else if (in (slice "r" "right") $align_menu) }}ml-auto mr-6{{end}}">
       {{ $currentPage := . }}
       {{ range site.Menus.main }}
@@ -58,7 +58,7 @@
       {{ $pageURL:= $currentPage.Permalink | absLangURL }}
       {{ $active := eq $menuURL $pageURL }}
       {{ if .HasChildren }}
-      <li class="nav-item nav-dropdown group relative">
+      <li class="nav-item nav-dropdown group relative text-oklch(255 255 170) hover:text--oklch(255 213 79)">
             <span
               class="nav-link {{ range .Children }}
                 {{ $childURL := .URL | absLangURL }}
@@ -72,7 +72,7 @@
               </svg>
             </span>
         <ul
-          class="nav-dropdown-list lg:group-hover:visible lg:group-hover:opacity-100">
+          class="nav-dropdown-list text-oklch(255 255 170) hover:text--oklch(255 213 79) lg:group-hover:visible lg:group-hover:opacity-100">
           {{ range .Children }}
           {{ $childURL := .URL | absLangURL }}
           {{ $active := eq $childURL $pageURL }}
@@ -85,7 +85,7 @@
           {{- else -}}
             {{- $url = .URL | relLangURL -}}
           {{- end -}}
-          <li class="nav-dropdown-item">
+          <li class="nav-dropdown-item text-oklch(255 255 170) hover:text--oklch(255 213 79)">
             <a
               class="nav-dropdown-link {{ if $active }}active{{- end -}}"
               {{ if findRE `^http` .URL }}
@@ -108,7 +108,7 @@
         {{- else -}}
         {{- $url = .URL | relLangURL -}}
       {{- end -}}
-      <li class="nav-item">
+      <li class="nav-item text-oklch(255 255 170) hover:text--oklch(255 213 79)">
         <a
           class="nav-link {{ if $active }}active{{- end -}}"
           {{ if findRE `^http` .URL }}
@@ -138,7 +138,7 @@
       {{ with $show_search }}
       <button
         aria-label="toggle search"
-        class="text-black hover:text-primary  inline-block px-3 text-xl dark:text-white"
+        class="text-oklch(255 255 170) hover:text--oklch(255 213 79)   inline-block px-3 text-xl dark:text-white"
         data-search-toggle>
         <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
       </button>
@@ -146,7 +146,7 @@
 
       {{ $show_theme_chooser := site.Params.header.navbar.show_theme_chooser | default true }}
       {{ if $show_theme_chooser }}
-      <div class="px-3 text-black hover:text-primary-700 dark:text-white dark:hover:text-primary-300
+      <div class="px-3 text-oklch(255 255 170) hover:text--oklch(255 213 79)  dark:text-white dark:hover:text-primary-300
             [&.active]:font-bold [&.active]:text-black/90 dark:[&.active]:text-white">
         <button class="theme-toggle mt-1" accesskey="t" title="appearance">
           <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -185,7 +185,7 @@
         href="{{ site.Params.header.navbar.button.url | relLangURL }}"
         class="inline-block rounded border px-5 py-2 font-semibold transition
         md:ml-4 px-4 py-1.5 text-sm
-        border-black  hover:bg-black dark:hover:bg-white dark:hover:text-black hover:text-white dark:border-white dark:text-white dark:hover:bg-white
+        border-black  hover:black dark:hover:bg-white dark:hover:text-black hover:text-white dark:border-white dark:text-white dark:hover:bg-white
         hidden lg:inline-block">
         {{ site.Params.header.navbar.button.text }}
       </a>
