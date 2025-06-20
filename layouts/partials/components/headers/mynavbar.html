@@ -50,7 +50,7 @@
     {{ $align_menu := site.Params.header.navbar.align | default "center" }}
     <ul
       id="nav-menu"
-      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-left
+      class="navbar-nav order-3 hidden text-oklch(255 255 170) hover:text--oklch(255 213 79) lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-left
       {{ if in (slice "l" "left") $align_menu }}mr-auto ml-6{{ else if (in (slice "r" "right") $align_menu) }}ml-auto mr-6{{end}}">
       {{ $currentPage := . }}
       {{ range site.Menus.main }}
@@ -58,7 +58,7 @@
       {{ $pageURL:= $currentPage.Permalink | absLangURL }}
       {{ $active := eq $menuURL $pageURL }}
       {{ if .HasChildren }}
-      <li class="nav-item nav-dropdown group relative">
+      <li class="nav-item nav-dropdown group relative text-oklch(255 255 170) hover:text--oklch(255 213 79)">
             <span
               class="nav-link {{ range .Children }}
                 {{ $childURL := .URL | absLangURL }}
@@ -72,7 +72,7 @@
               </svg>
             </span>
         <ul
-          class="nav-dropdown-list lg:group-hover:visible lg:group-hover:opacity-100">
+          class="nav-dropdown-list text-oklch(255 255 170) hover:text--oklch(255 213 79) lg:group-hover:visible lg:group-hover:opacity-100">
           {{ range .Children }}
           {{ $childURL := .URL | absLangURL }}
           {{ $active := eq $childURL $pageURL }}
@@ -85,7 +85,7 @@
           {{- else -}}
             {{- $url = .URL | relLangURL -}}
           {{- end -}}
-          <li class="nav-dropdown-item">
+          <li class="nav-dropdown-item text-oklch(255 255 170) hover:text--oklch(255 213 79)">
             <a
               class="nav-dropdown-link {{ if $active }}active{{- end -}}"
               {{ if findRE `^http` .URL }}
@@ -108,7 +108,7 @@
         {{- else -}}
         {{- $url = .URL | relLangURL -}}
       {{- end -}}
-      <li class="nav-item">
+      <li class="nav-item text-oklch(255 255 170) hover:text--oklch(255 213 79)">
         <a
           class="nav-link {{ if $active }}active{{- end -}}"
           {{ if findRE `^http` .URL }}
