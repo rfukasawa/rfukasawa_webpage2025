@@ -2,14 +2,14 @@
 title: The Arc-Item-Load and Related Formulations for the Cumulative Vehicle Routing
   Problem
 authors:
-- \studMauro Henrique Mulati
+- Mauro Henrique Mulati
 - Ricardo Fukasawa
 - Flávio Keidi Miyazawa
-date: '2022-01-01'
+date: '2022-08-01'
 publishDate: '2025-06-18T17:50:40.278436Z'
 publication_types:
 - article-journal
-publication: '*Discrete Optimization*'
+publication: '*Discrete Optimization*, vol 45, 100710, 2022'
 doi: https://doi.org/10.1016/j.disopt.2022.100710
 abstract: The Capacitated Vehicle Routing Problem (CVRP) consists of finding the cheapest
   way to serve a set of customers with a fleet of vehicles of a given capacity. While
@@ -40,6 +40,8 @@ tags:
 - Arc-Item
 - Arc-Load
 - Set Partitioning
+label: j34
+
 links:
 - name: URL
   url: https://www.sciencedirect.com/science/article/pii/S1572528622000214

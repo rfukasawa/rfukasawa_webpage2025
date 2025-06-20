@@ -3,12 +3,12 @@ title: The price-elastic knapsack problem
 authors:
 - Ricardo Fukasawa
 - Joe Naoum-Sawaya
-- \studDaniel Oliveira
-date: '2024-01-01'
+- Daniel Oliveira
+date: '2024-04-01'
 publishDate: '2025-06-18T17:53:24.168246Z'
 publication_types:
 - article-journal
-publication: '*Omega*'
+publication: '*Omega*, vol 124, 103003, 2024'
 doi: https://doi.org/10.1016/j.omega.2023.103003
 abstract: This paper introduces the price-elastic knapsack problem (PEKP), an extension
   of the classic knapsack problem where instead of fixed item characteristics, the
@@ -30,7 +30,7 @@ tags:
 - Knapsack
 - Mixed-integer-programming
 - Quadratic-programming
-links:
-- name: URL
-  url: https://www.sciencedirect.com/science/article/pii/S0305048323001676
+
+label: j37
+
 ---

@@ -2,13 +2,13 @@
 title: A Fast Combinatorial Algorithm for the Bilevel Knapsack Problem with Interdiction
   Constraints
 authors:
-- Noah \studWeninger
+- Noah Weninger
 - Ricardo Fukasawa
-date: '2023-01-01'
+date: '2023-05-22'
 publishDate: '2025-06-18T17:50:40.310530Z'
 publication_types:
 - paper-conference
-publication: '*Integer Programming and Combinatorial Optimization*'
+publication: '*Lecture Notes in Computer Science (IPCO proceedings)*, vol 13904, pp. 438-452, 2023'
 abstract: We consider the bilevel knapsack problem with interdiction constraints,
   a fundamental bilevel integer programming problem which generalizes the 0-1 knapsack
   problem. In this problem, there are two knapsacks and n items. The objective is
@@ -24,4 +24,9 @@ abstract: We consider the bilevel knapsack problem with interdiction constraints
   processed in an online fashion. The relaxation is easier to solve but approximates
   the original problem surprisingly well in practice. We believe that this same technique
   may be useful for other interdiction problems.
+
+label: c9
+
+doi: https://doi.org/10.1007/978-3-031-32726-1_31
+
 ---

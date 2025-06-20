@@ -10,7 +10,7 @@ publication: "*INFORMS Journal on Computing*, vol 33 (4), pp.1624-1643, 2021"
 url_preprint: "http://www.optimization-online.org/DB_HTML/2019/07/7292.html"
 doi: "10.1287/ijoc.2020.1027"
 tags: [Cutting planes,Computations]
-label: "Pre2"
+label: "j32"
 
 ---
 
